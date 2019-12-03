@@ -1,0 +1,251 @@
+body{
+  font-family: monospace, sans-serif, serif;
+  background-color: #F2F2F2;
+  margin: 0;
+  background-image: url("../images/image-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Common styles*/
+h1, h2{
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:active, a:focus, a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/*
+*
+* Header Styles
+*
+*/
+#header{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #eceba7;
+}
+
+#header h1{
+  font-size: 48px;
+  padding-top: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+nav{
+  background: #ebce95;
+  padding: 20px;
+}
+
+#nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+#nav-bar li{
+  color: #fff;
+  background: #edaaaa;
+  padding: 10px 20px;
+}
+
+
+/*
+*
+* Intro styles
+*
+*/
+
+#intro{
+  width: 100%;
+  padding: 40px 0;
+  color: #fff;
+  background-color: #2d132c;
+}
+
+#intro div{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+
+#intro div>h2{
+  margin: 20px;
+  width: 60%;
+  font-size: 82px;
+  text-align: center;
+}
+
+#intro div>p{
+  margin: 20px;
+  width: 40%;
+}
+
+
+/*
+*
+* Main Section styles
+*
+*/
+
+#main{
+  width: 80%;
+  margin: auto;
+  color: #fff;
+}
+
+#main div{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  margin: 20px 0;
+}
+
+#sale-list{
+  display: flex;
+  flex-direction: row;
+}
+
+#sale-list li{
+  height: 150px;
+  width: 40%;
+  margin: 10px;
+  padding: 20px;
+  background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/image-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*
+*
+* Footer styles
+*
+*/
+#footer{
+  width: 100%;
+  text-align: center;
+  background: #9cf196;
+  padding: 30px 0px;
+}
+
+#footer nav{
+  background-color: #6fb98f;
+  width: 30%;
+  margin: auto;
+}
+
+#nav-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+/*
+*
+* Service page styles
+*
+*/
+#products{
+  width: 80%;
+  margin: auto;
+  color: #fff;
+}
+
+#products div{
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #594a4e;
+}
+
+#products div>h2{
+  font-size: 34px;
+  width: 40%;
+  margin: 10px;
+  background: #ebce95;
+  padding: 20px;
+  background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/image-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#products div>p{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  padding: 30px;
+}
+
+
+/*
+*
+* Form Styles
+*
+*/
+#contact-form{
+  width: 50%;
+  height: 610px;
+  margin: 40px auto;
+  background: #f2e3c9;
+  padding: 40px 60px;
+}
+
+#contact-form h2{
+  margin: 20px 0;
+  font-size: 38px;
+}
+
+#contact-form label{
+  font-size: 18px;
+  padding: 10px 0;
+
+}
+
+#contact-form input, textarea{
+  width: 80%;
+  padding: 10px 0;
+}
+
+input#text-area{
+  padding: 30px 0;
+}
+
+#contact-form button{
+  padding: 10px 15px;
+  background: #7ecfc0;
+  color: #fff;
+  font-size: 18px;
+}
+
+button#reset-btn{
+  background-color: #cf455c;
+}
+
+.hiddenText{
+    display: none;
+}
+
+.errorText{
+    display: block;
+    color: red;
+}
+
+input.invalid {
+  border-color: red;
+  background-color: rgba(255, 0, 0, 0.1);
+}
